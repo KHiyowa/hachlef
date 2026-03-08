@@ -7,19 +7,17 @@
 ;@Ahk2Exe-SetCompanyName Hiyowa Records
 ;@Ahk2Exe-SetCopyright Hiyowa Kyobashi
 ;@Ahk2Exe-SetDescription Hachlef!!
-;@Ahk2Exe-SetFileVersion 1.0.0
+;@Ahk2Exe-SetFileVersion 1.0.1
 ;@Ahk2Exe-SetInternalName Hachlef!!
 ;@Ahk2Exe-SetOrigFilename hachlef.exe
 ;@Ahk2Exe-SetProductName Hachlef!!
-;@Ahk2Exe-SetProductVersion 1.0.0
+;@Ahk2Exe-SetProductVersion 1.0.1
 ;@Ahk2Exe-SetMainIcon hachlef.ico
 
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 SetStoreCapsLockMode False
 A_IconTip := "Hachlef!!"
-
-A_MenuMaskKey := "vkE8" ; Change menu mask key from Ctrl to unassigned key (vkE8)
 
 ; Enable hotkeys only when google-chat-desktop.exe is active
 #HotIf WinActive("ahk_exe google-chat-desktop.exe")
